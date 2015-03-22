@@ -7,7 +7,7 @@ Semana Transdisciplinar
  
    * Anderson
    * Noé
-   * Jimmy
+   * [Jimmy](https://github.com/jimmykedlyn)
    * Cleyanne
    * Ivan
    * Raelson
@@ -16,4 +16,4 @@ Semana Transdisciplinar
    * Marcos
    * Nero
    * Robson
-   * Rodrigo
+   * [Rodrigo](https://github.com/Rodrigo54)
