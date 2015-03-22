@@ -1,3 +1,4 @@
+
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
 class Eventos extends CI_Controller {  
@@ -25,7 +26,15 @@ class Eventos extends CI_Controller {
     }
     public function index(){
         $this->load->model('eventosmodel');
-        $dados['eventos'] = $this->eventosmodel->get_eventosturno();
+        $dados['dia1'] = $this->eventosmodel->get_eventodia1();
+        $dados['dia2'] = $this->eventosmodel->get_eventodia2();
+        $dados['dia3'] = $this->eventosmodel->get_eventodia3();
         $this->load->view('admin/eventos_semana',$dados);
+    }
+    public function inscrever(){
+        $dados['id_evento_cadas'] = $this->input->post('inscrever');
+        $dados['nome'] = $this->session->userdata('nome');
+        $this->db->insert('eventos_usuario', $dados);
+        redirect('admin/paineladm');
     }
 }

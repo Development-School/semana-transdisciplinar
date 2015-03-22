@@ -11,7 +11,7 @@
   
 </head>
 <body>
-  <div class="container">
+  <div class="container main">
     <div class="row">
       <div class="col-xs-12 col-sm-7 col-md-6">
         <a href="<?php echo base_url() ?>">
@@ -20,11 +20,11 @@
       </div>
 
       <div class="col-xs-12 col-sm-5 col-md-4">
-      	<h1>Semana Transdisciplinar</h1>
+      	<h1 class="text-center">Entrar no Sistema</h1>
       	<div class="form-group">        			
       		<?php		
       		echo form_open('home/login','class="form-horizontal"'); 
-      			echo form_fieldset('Efetuar Login');
+      			echo form_fieldset('Login');
             $atributos1 = array(
                 "type" => "text",
                 "name" => "cpf",
@@ -67,7 +67,7 @@
           <h4><i class="fa fa-hand-o-right fa-lg pull-left"></i>Informações importantes!</h4>
           <p>Para se inscrever nos eventos é necessário inicialmente cadastrar-se no sistema! Ainda não está cadastrado?</p>
           <a href="<?php echo base_url('cadastro');?>">Cadastre-se Aqui! </a> <br>       
-          <a href="<?php echo base_url('recuperarsenha?recuperar=sim');?>">Esqueceu sua senha?</a> <br>
+          <a href="<?php echo base_url('recuperarsenha');?>">Esqueceu sua senha?</a> <br>
           <a href="<?php echo base_url('ajuda');?>">Ajuda&nbsp;<i class="fa fa-question fa-lg"></i></a>
         </div>
       </div>

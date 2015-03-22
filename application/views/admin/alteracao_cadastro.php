@@ -8,10 +8,7 @@
     font-size: 15px;
     margin-right: 15px;
     margin-left: 5px;
-  }
-  h2{
-    text-align: left;
-  }
+  }  
   </style>
 </head>
 <body>

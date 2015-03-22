@@ -6,8 +6,7 @@
   .ini{
     float: right;
   }  
-  h2{
-    text-align: left;
+  h2{    
     float: left;
     width: 60%;
   }
@@ -66,7 +65,7 @@
                 "type" => "submit",
                 "name" => "inscrever",
                 "value" => $eventos->ID,
-                "class" => "btn btn-warning",
+                "class" => "btn btn-warning btnlogin",
                 'content' => 'Inscrever-se'
                 );
               echo form_button($data);

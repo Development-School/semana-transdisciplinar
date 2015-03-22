@@ -7,32 +7,20 @@
   .panel-warning>.panel-heading{
     background-image: linear-gradient(to bottom,#EFA843 0,#faf2cc 100%);
   }
- /* .aviao{
+  /*.aviao{
     width: 40%; 
     float: right;    
-  }*/
-  .contate{    
-    
   }
- /* @media (max-width: 768px) {
+  @media (max-width: 768px) {
     .aviao{
       width: 50%;
       float: left;
       margin: auto 25%;
     }*/
-    .contate{
-      text-align: center;
-
+  .contate{
+    width: 100%;
+    text-align: center;
   }
-
-  .contate_email{
-    padding: 42%;
-
-  }
-
-
-  }
-
   </style>
 </head>
 <body>
@@ -42,7 +30,7 @@
       <h2>Ajuda</h2>
       <h3 style="text-align:center">Perguntas Frequentes:</h3>
 
-      <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
   <div class="panel panel-warning">
     <div class="panel-heading" role="tab" id="headingOne">
       <h4 class="panel-title">
@@ -86,7 +74,7 @@
     </div>
   </div>
 
-<div class="panel panel-warning">
+  <div class="panel panel-warning">
     <div class="panel-heading" role="tab" id="headingFour">
       <h4 class="panel-title">
         <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
@@ -100,19 +88,22 @@
       </div>
     </div>
   </div>
-
-</div>          
-  </div>
-  </div>
+</div><!--Fim panel-group-->          
+</div>
+  
   <!--<div class="col-xs-12 col-sm-6 col-md-6">
     <img class="aviao" src="<?php echo base_url('assets/img/aviao.png') ?>" alt="Aviao">
   </div>-->
- <!-- <div class="col-xs-12 col-sm-6 col-md-6">-->
-  <h3 class="contate">Contate-nos:</h3>
-  <a class="contate_email"  href="mailto:semanatrans@gmail.com">semanatrans@gmail.com</a>    <br>
-     
-   </div>
+  <div class="col-xs-12 col-sm-4 col-md-4">
+  </div>
+  <div class="col-xs-12 col-sm-4 col-md-4">
+    <h3 class="contate">Contate-nos:
+    <a class="contate"  href="mailto:semanatrans@gmail.com">semanatrans@gmail.com</a><br>
+    </h3>     
+  </div>
+  <div class="col-xs-12 col-sm-4 col-md-4">
+  </div>
 </div>  	
-
+</div>
 
 <?= $this->load->view('footer');//Chama a view footer?>

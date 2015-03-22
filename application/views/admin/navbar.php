@@ -1,5 +1,5 @@
 <!--Barra de Navegação -->
-<h4 class="fulano">Olá, <?php echo strtolower($this->session->userdata('nome'));?></h4>
+<h4 class="text-right text-capitalize">Olá, <?php echo strtolower($this->session->userdata('nome'));?></h4>
 	<nav class="navbar navbar-default">
 		<div class="container-fluid">
 			<div class="navbar-header">

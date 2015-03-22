@@ -34,7 +34,7 @@
                     </button><i class="fa fa-exclamation-triangle"></i> '.$erro.'</div>';
             if ($erro == 'Usuario já Cadastrado') {
             echo '<a class="btn btn-warning btncfp" href="'.base_url('home').'">Faça seu Login!</a>';
-            echo '<a class="btn btn-warning btncfp" style="float:right;" href="'.base_url('#').'">Esqueceu sua senha?</a>';
+            echo '<a class="btn btn-warning btncfp" style="float:right;" href="'.base_url('recuperarsenha').'">Esqueceu sua senha?</a>';
             }                                            	
             }
             $atributos3 = array(

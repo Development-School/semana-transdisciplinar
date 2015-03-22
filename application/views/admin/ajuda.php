@@ -10,10 +10,7 @@
   .aviao{
     width: 40%; 
     float: right;    
-  }
-  h2{    
-    text-align: left;
-  }
+  }  
   @media (max-width: 768px) {
     .aviao{
       width: 50%;

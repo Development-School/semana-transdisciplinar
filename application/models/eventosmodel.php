@@ -16,10 +16,27 @@ class Eventosmodel extends CI_Model {
         }
        return $rows; // retorna rows, e nao a variavel row
     }
-    # GET TURNO
-    function get_eventosturno(){
+    # GET DIA 1
+    function get_eventodia1(){
+        $this->db->where('id_dia', 1);
+        $this->db->order_by("id_horario", "asc");
         $query = $this->db->get('eventos_cadastrados');//Busca só os 10 primeiros resultados
         return $query->result();
 
-    }       
+    }
+     # GET DIA 2
+    function get_eventodia2(){
+        $this->db->where('id_dia', 2);
+        $this->db->order_by("id_horario", "asc");
+        $query = $this->db->get('eventos_cadastrados');//Busca só os 10 primeiros resultados
+        return $query->result();
+    }   
+    # GET DIA 3
+    function get_eventodia3(){
+        $this->db->where('id_dia', 3);
+        $this->db->order_by("id_horario", "asc");
+        $query = $this->db->get('eventos_cadastrados');//Busca só os 10 primeiros resultados
+        return $query->result();
+    }
+
 }   

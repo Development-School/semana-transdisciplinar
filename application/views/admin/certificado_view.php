@@ -4,9 +4,8 @@
   <link rel="stylesheet" href="<?php echo base_url('assets/css/estilo.css') ?>" >
   <style>  
   .pdf {height:800px; width:100%;}
-  h2{
-    text-align: left;
-    margin-bottom: 45px;
+  h2+h4{    
+    margin-top: 45px;
   }
   </style>
 </head>
