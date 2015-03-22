@@ -1,3 +1,3 @@
 # Semana Transdisciplinar
-Projeto do site da semana transdisciplinar da faculdade Pitágoras São Luis
-http://esc.electro-cloud.com/
+Projeto do sistema de gestão da Semana Transdisciplinar[link](http://esc.electro-cloud.com/) da faculdade Pitágoras São Luis
+
